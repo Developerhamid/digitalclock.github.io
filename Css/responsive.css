@@ -1,0 +1,53 @@
+@media screen and (min-width:869px) and (max-width:1320px) {
+    .timeContainer h1{
+        font-size: 2rem;
+    }
+
+    .timeItems p{
+        font-size: 2.3rem;
+    }
+
+    #currentTime{
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (min-width:410px) and (max-width:869px) {
+    .timeContainer h1{
+        font-size: 1.5rem;
+    }
+
+    .timeItems p{
+        font-size: 1.5rem;
+    }
+
+    #currentTime{
+        font-size: 1.8rem;
+    }
+
+    footer p{
+        font-size: 1.2rem;
+     }
+}
+
+@media screen and (max-width:410px) {
+    .timeContainer h1{
+        font-size: 1.4rem;
+    }
+
+    .timeItems{
+        width: 60%;
+    }
+
+    .timeItems p{
+        font-size: 1.2rem;
+    }
+
+    #currentTime{
+        font-size: 1.2rem;
+    }
+
+    footer p{
+        font-size: 1.3rem;
+     }
+}

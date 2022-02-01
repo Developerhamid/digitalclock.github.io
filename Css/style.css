@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav{
+            height: 50px;
+            background-color: #828ad7;
+            color: white;
+        }
+
+        nav ul{
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li{
+        font-family: 'Ubuntu', sans-serif;
+        list-style: none;
+        padding: 12px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin: 0 0 0 20px;
+        }
+
+        .mainContainer{
+            height: 450px;
+            background-color: #1761e12b;
+            width: 50%;
+            margin:25px auto;
+            border-radius: 12px;
+            font-family: 'Varela Round', sans-serif;
+            box-shadow: 1px 1px 12px 4px #8272fa;
+        }
+
+        .timeContainer h1{
+            text-align: center;
+            font-size: 2rem;
+            color: red;
+            padding: 12px;
+        }
+
+        .timeItems{
+            border: 2px solid black;
+            margin: 30px auto;
+            width: 80%;
+            height: 250px;
+            border-radius:15px;
+            padding: 5px 15px;
+        }
+       
+        .timeItems p{
+                font-size: 2.5rem;
+                text-align: center;
+            }
+            
+         .timeItems span{
+                margin-top: 15px;
+                }
+                
+
+
+        #currentTime{
+            font-size: 3rem;
+        }
+
+        footer{
+            height: 45px;
+            background-color: #828ad7;
+            color: white;
+            border: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 125px;
+        }
+
+        footer p{
+           font-size: 1.5rem;
+           font-family: 'Ubuntu', sans-serif;
+        }
